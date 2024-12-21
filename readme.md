@@ -9,8 +9,8 @@
 
 ## Games
 
-- [Don't permute](https://github.com/preauth-io/challenge/tree/main/game-01)
-- [Spaghetti code](https://github.com/preauth-io/challenge/tree/main/game-02)
+- [Don't permute](https://github.com/preauth-io/challenge/tree/main/game-01) [ Solution in branch: game_01_solution ]
+- [Spaghetti code](https://github.com/preauth-io/challenge/tree/main/game-02) [ Solution in branch: game_02_refactoring ]
 
 ## Any doubts?
 Just open a [new issue](https://github.com/preauth-io/challenge/issues/new) and we'll get back to you asap.
