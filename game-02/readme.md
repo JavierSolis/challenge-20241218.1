@@ -40,3 +40,9 @@ for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+# Solution
+
+- Se creó un contenedor para poder ejecutar o poder replicarlo independientemento.
+- Se separó las responsabilidades en clases hijo de item.
+- Se refactorizó aplicando cada caso especial encontrado en ambas clases para asegurar que funcionen igual.
