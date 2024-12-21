@@ -8,4 +8,14 @@ You're required to create a function that receives an array (M) and integer valu
 
 > 🚨 We're looking to someone who can imagine future problems while is coding.
 
- 
+ # Solution
+
+Se creó la función según el requerimiento. La función getPair() recorre el array buscando la primera combinación. Se añadió un parámetro por defecto groupSize = 2, en caso se requiera que sea un grupo de más de 2 elementos.
+
+Usé un utilitario para poder realizar las pruebas. Lo utilicé para hacer scripts rápidos: https://jtest.ceroauno.de/ . Para pruebas más complejas, ver el ejercicio game02.
+
+Se puede copiar el contenido de solution.js en la página y mostrar el resultado como en la captura.
+
+Captura:
+
+<img src="image.png">
