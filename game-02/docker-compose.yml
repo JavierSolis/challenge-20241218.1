@@ -1,0 +1,9 @@
+version: '0.1'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app # Monta el proyecto local al contenedor
+    tty: true # Mantiene la terminal abierta
+    ports:
+      - "3000:3000" # Mapea un puerto si tu aplicación lo necesita
