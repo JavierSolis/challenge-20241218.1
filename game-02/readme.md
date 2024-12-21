@@ -46,3 +46,35 @@ legendary item and as such its Quality is 80 and it never alters.
 - Se creó un contenedor para poder ejecutar o poder replicarlo independientemento.
 - Se separó las responsabilidades en clases hijo de item.
 - Se refactorizó aplicando cada caso especial encontrado en ambas clases para asegurar que funcionen igual.
+
+
+## Comandos utiles
+
+*estando en la carpeta game-02
+
+```
+
+docker compose up --build -d
+docker exec -it game-02-app-1 bash
+#correr las pruebas dentro del contenedor
+npx mocha
+
+```
+
+## Referencias:
+
+Tutorial de docker
+https://www.youtube.com/watch?v=AquOM-ISsnA&list=PLQhxXeq1oc2n7YnjRhq7qVMzZWtDY7Zz0
+
+Tips de refactoring
+https://www.linkedin.com/in/xurxodev/
+
+Basico de ts
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+https://www.typescriptlang.org/docs/handbook/2/classes.html
+
+Test con mocha
+https://mochajs.org/
+
+Assert para las pruebas
+https://nodejs.org/api/assert.html
